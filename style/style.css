@@ -1,3 +1,129 @@
 body {
     margin: 0px;
 }
+
+.header-container, .brand-container {
+    background-color: #293942;
+}
+
+.header {    
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.nav-btn {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.218182px;
+    color: #F9F8FF;
+}
+
+.nav-btn:hover {
+    color: #7971E9;
+}
+
+.sign-btn {
+    padding: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #7971E9;
+    border: 1px solid #7971E9;
+    border-radius: 4px;
+}
+
+.sign-btn:hover {
+    background-color: #7971E9;
+    color: #F4EEFF;
+    border: 1px solid #7971E9;
+}
+
+.discover-container {
+    background-image: url(../img/Discover-bcg.png);
+}
+
+.discover-section {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.discover-title {
+    margin: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 65px;
+    color: #F9F8FF;
+}
+
+.brand {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.love-container {
+    background-color: #1b272b;
+}
+
+.love-section {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+}
+
+.love-title {
+    margin: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 65px;
+    color: #F9F8FF;
+}
+
+.love-info {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: rgba(249, 248, 255, 0.5);
+}
+
+.love-btn {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #7971E9;
+}
+
+.love-btn:hover {
+    background-color: #7971E9;
+    color: #F4EEFF;
+}
+
+.svg {
+    fill: #7971E9;
+}
+
+.svg:hover {
+    fill: #F4EEFF;
+}
