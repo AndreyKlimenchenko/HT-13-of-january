@@ -2,13 +2,39 @@ body {
     margin: 0px;
 }
 
-.header-container, .brand-container {
+.light-container {
     background-color: #293942;
 }
 
-.header {    
+.dark-container {
+    background-color: #1b272b;
+}
+
+.section {
     width: 80%;
     margin: 0px auto;
+}
+
+.title {
+    margin: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 65px;
+    color: #F9F8FF;
+}
+
+.info {
+    margin: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: rgba(249, 248, 255, 0.5);
+}
+
+.header-section {
+    padding: 33px;    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,6 +49,7 @@ body {
 }
 
 .nav-btn {
+    margin-right: 45px;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -36,7 +63,9 @@ body {
 }
 
 .sign-btn {
-    padding: 10px;
+    margin-right: 24px;
+    width: 145px;
+    height: 55px;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -54,54 +83,32 @@ body {
 }
 
 .discover-container {
-    background-image: url(../img/Discover-bcg.png);
-}
-
-.discover-section {
-    width: 80%;
-    margin: 0px auto;
+    background: url(../img/Discover-bcg.png) no-repeat;
+    background-size: 100%;
 }
 
 .discover-title {
-    margin: 0px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 65px;
-    color: #F9F8FF;
+    padding-top: 214px;
+    margin-bottom: 38px;
 }
 
-.brand {
+.discover-social {
+    padding-bottom: 280px;
+    margin-top: 25px;
+}
+
+.discover-social-link {
+    margin-right: 19px;
+}
+
+.brand-section {
+    padding: 74px 0px;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    max-width: 1920px;
     width: 80%;
-    margin: 0px auto;
-}
-
-.love-container {
-    background-color: #1b272b;
-}
-
-.love-section {
-    width: 80%;
-    margin: 0px auto;
-    display: flex;
-    align-items: center;
-}
-
-.love-title {
-    margin: 0px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 65px;
-    color: #F9F8FF;
-}
-
-.love-info {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 32px;
-    color: rgba(249, 248, 255, 0.5);
+    row-gap: 160px;
+    justify-items: center;
 }
 
 .love-btn {
@@ -120,10 +127,205 @@ body {
     color: #F4EEFF;
 }
 
+.love-img-container {
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    max-width: 810px;
+    width: 100%;
+    row-gap: 30px;
+    justify-items: center;
+    column-gap: 30px;
+}
+
+.love-img-container > div {
+    max-width: 100%;
+    height: 250px;
+    width: 100%;
+    background: antiquewhite;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.love-img-container > div:hover {
+    transform: scale(1.14);
+    opacity: 0.6;
+    filter: blur(2px);
+}
+
+.love-img-container > div:nth-child(1) {
+    background-image: url(../img/label1.jpg);
+}
+
+.love-img-container > div:nth-child(2) {
+    background-image: url(../img/label2.jpg);
+}
+.love-img-container > div:nth-child(3) {
+    background-image: url(../img/label3.jpg);
+}
+.love-img-container > div:nth-child(4) {
+    background-image: url(../img/label4.jpg);
+}
+.love-img-container > div:nth-child(5) {
+    background-image: url(../img/label5.jpg);
+}
+.love-img-container > div:nth-child(6) {
+    background-image: url(../img/label6.jpg);
+}
+
+.love-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0px;
+}
+
+.love-title, .love-info {
+    margin-bottom: 32px;
+}
+
 .svg {
     fill: #7971E9;
+    margin-right: 15px;
 }
 
 .svg:hover {
     fill: #F4EEFF;
+}
+
+.hand-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-container {
+    margin-left: 218px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    max-width: 690px;
+    width: 100%;
+    justify-items: center;
+    column-gap: 100px;
+}
+
+.play-container > div {
+    max-width: 100%;
+    height: 493px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.play-container > div:hover {
+    transform: scale(1.14);
+    opacity: 0.6;
+    filter: blur(2px);
+}
+
+.play-container > div:nth-child(1) {
+    background-image: url(../img/play1.png);
+}
+
+.play-container > div:nth-child(2) {
+    background-image: url(../img/play2.png);
+}
+
+.hand-title, .hand-info {
+    margin-bottom: 32px;
+}
+
+.why-content {
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    max-width: 1920px;
+    width: 80%;
+    column-gap: 121px;
+    row-gap: 82px;
+}
+
+.why-title {
+    margin-bottom: 81px;
+    margin-left: 200px;
+}
+
+
+.why-section {
+    padding: 60px 0px;
+}
+
+.why-context-title, .why-info {
+    padding-left: 16px;
+}
+
+.why-context-title {
+    margin: 0px;
+    border-left: #7971E9 solid 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 43px;
+    color: #F9F8FF;
+}
+
+.about-info {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(249, 248, 255, 0.25);
+}
+
+.about-section {
+    padding: 48px 0px 130px 0px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    max-width: 1920px;
+    width: 80%;
+    column-gap: 70px;
+}
+
+.about-logo-info {
+    margin-right: 130px;
+}
+
+.about-main-btn {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 43px;
+    color: rgba(249, 248, 255, 0.5);
+}
+
+.about-other-btn {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #F9F8FF;
+}
+
+.about-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.footer-btns {
+    margin: 0px auto;
+    padding: 34px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    max-width: 1920px;
+    width: 80%;
+}
+
+.footer-btn {
+
 }
