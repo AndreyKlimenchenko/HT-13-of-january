@@ -83,18 +83,17 @@ body {
 }
 
 .discover-container {
-    background: url(../img/Discover-bcg.png) no-repeat;
-    background-size: 100%;
+    background-image: url(../img/Discover-bcg.png);
 }
 
 .discover-title {
     padding-top: 214px;
-    margin-bottom: 38px;
+    padding-bottom: 38px;
 }
 
 .discover-social {
-    padding-bottom: 280px;
-    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 100px;
 }
 
 .discover-social-link {
@@ -326,6 +325,25 @@ body {
     width: 80%;
 }
 
-.footer-btn {
+@media (max-width: 1280px) {
+    .logo-img {
+        display: none;
+    }
 
+    .brand-section {
+        grid-template-columns: repeat(3, auto);
+    }
+
+    .about-section {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .love-img-container {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .about-logo-info {
+        display: none;
+    }
 }
