@@ -58,8 +58,19 @@ body {
     color: #F9F8FF;
 }
 
+.logo-svg {
+    fill: #F9F8FF;
+    cursor: pointer;
+}
+
+.logo-svg:hover {
+    fill: #7971E9;
+    filter: drop-shadow(16px 16px 10px black);
+}
+
 .nav-btn:hover {
     color: #7971E9;
+    filter: drop-shadow(16px 16px 10px black);
 }
 
 .sign-btn {
@@ -98,6 +109,12 @@ body {
 
 .discover-social-link {
     margin-right: 19px;
+    filter: drop-shadow(16px 16px 10px black);
+}
+
+.discover-social-link:hover {
+    margin-right: 19px;
+    filter: drop-shadow(16px 16px 10px #7971E9);
 }
 
 .brand-section {
@@ -146,32 +163,42 @@ body {
     background-position: center;
     transition: 0.5s;
     opacity: 1;
+    cursor: pointer;
 }
 
 .love-img-container > div:hover {
     transform: scale(1.14);
     opacity: 0.6;
-    filter: blur(2px);
 }
 
 .love-img-container > div:nth-child(1) {
     background-image: url(../img/label1.jpg);
+    filter: drop-shadow(16px 16px 10px black);
 }
 
 .love-img-container > div:nth-child(2) {
     background-image: url(../img/label2.jpg);
+    filter: drop-shadow(16px 16px 10px black);
 }
+
 .love-img-container > div:nth-child(3) {
     background-image: url(../img/label3.jpg);
+    filter: drop-shadow(16px 16px 10px black);
 }
+
 .love-img-container > div:nth-child(4) {
     background-image: url(../img/label4.jpg);
+    filter: drop-shadow(16px 16px 10px black);
 }
+
 .love-img-container > div:nth-child(5) {
     background-image: url(../img/label5.jpg);
+    filter: drop-shadow(16px 16px 10px black);
 }
+
 .love-img-container > div:nth-child(6) {
     background-image: url(../img/label6.jpg);
+    filter: drop-shadow(16px 16px 10px black);
 }
 
 .love-section {
@@ -188,10 +215,6 @@ body {
 .svg {
     fill: #7971E9;
     margin-right: 15px;
-}
-
-.svg:hover {
-    fill: #F4EEFF;
 }
 
 .hand-section {
@@ -218,20 +241,23 @@ body {
     background-position: center;
     transition: 0.5s;
     opacity: 1;
+    cursor: pointer;
 }
 
 .play-container > div:hover {
     transform: scale(1.14);
     opacity: 0.6;
-    filter: blur(2px);
+    filter: drop-shadow(16px 16px 10px black);
 }
 
 .play-container > div:nth-child(1) {
     background-image: url(../img/play1.png);
+    filter: drop-shadow(16px 16px 10px black);
 }
 
 .play-container > div:nth-child(2) {
     background-image: url(../img/play2.png);
+    filter: drop-shadow(16px 16px 10px black);
 }
 
 .hand-title, .hand-info {
@@ -302,13 +328,24 @@ body {
     color: rgba(249, 248, 255, 0.5);
 }
 
+.about-main-btn:hover {
+    color: #F9F8FF;
+    filter: drop-shadow(16px 16px 10px black);
+}
+
 .about-other-btn {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
+    text-align: left;
     color: #F9F8FF;
 }
+
+.about-other-btn:hover {
+    color: #7971E9;
+}
+
 
 .about-btns {
     display: flex;
@@ -321,8 +358,25 @@ body {
     padding: 34px 0px;
     display: grid;
     grid-template-columns: repeat(3, auto);
-    max-width: 1920px;
-    width: 80%;
+    width: 290px;
+}
+
+.footer-svg {
+    fill: #FFFFFF;
+    filter: drop-shadow(16px 16px 10px black);
+}
+
+.footer-svg:hover {
+    fill: #7971E9;
+}
+
+.brand-svg {
+    fill: #6994A8;
+    filter: drop-shadow(16px 16px 10px black);
+}
+
+.brand-svg:hover {
+    fill: #7971E9;
 }
 
 @media (max-width: 1280px) {
