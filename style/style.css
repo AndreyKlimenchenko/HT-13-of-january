@@ -640,6 +640,7 @@ body {
 
     .discover-title {
         padding-top: 45px;
+        margin-left: 30px;
     }
 
     .discover-social-img {
@@ -660,20 +661,15 @@ body {
     }
 
     .section {
-        width: 80%;
+        width: 75%;
     }
-}
 
-@media (max-width: 450px) {
     .footer-btns {
         width: 260px;
     }
 
-    .section {
-        width: 75%;
-    }
-
-    .discover-title {
-        margin-left: 30px;
+    .burger-menu {
+        width: 86%;
+        height: 74%;
     }
 }
