@@ -674,7 +674,7 @@ body {
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 375px) {
     .burger-menu {
         width: 86%;
         height: 77%;
