@@ -680,7 +680,7 @@ body {
         height: 77%;
     }
 
-    .play-container > div {
+    .play-container {
         width: 100%;
         height: 400px;
     }
