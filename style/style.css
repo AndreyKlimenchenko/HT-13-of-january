@@ -621,6 +621,10 @@ body {
         width: 88%;
         height: 70%;
     }
+
+    .section {
+        width: 80%;
+    }
 }
 
 @media (max-width: 450px) {
@@ -653,5 +657,23 @@ body {
     .love-img-container > div {
         margin: 0px auto;
         width: 90%;
+    }
+
+    .section {
+        width: 80%;
+    }
+}
+
+@media (max-width: 450px) {
+    .footer-btns {
+        width: 260px;
+    }
+
+    .section {
+        width: 75%;
+    }
+
+    .discover-title {
+        margin-left: 30px;
     }
 }
