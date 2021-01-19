@@ -669,14 +669,12 @@ body {
     }
 
     .burger-menu {
-        width: 86%;
         height: 72%;
     }
 }
 
 @media (max-width: 375px) {
     .burger-menu {
-        width: 86%;
         height: 77%;
     }
 
@@ -688,5 +686,6 @@ body {
     .why-title {
         margin: 0px auto;
     }
+
 }
 
