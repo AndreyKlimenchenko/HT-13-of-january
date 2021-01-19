@@ -673,3 +673,20 @@ body {
         height: 72%;
     }
 }
+
+@media (max-width: 350px) {
+    .burger-menu {
+        width: 86%;
+        height: 77%;
+    }
+
+    .play-container > div {
+        width: 100%;
+        height: 400px;
+    }
+
+    .why-title {
+        margin: 0px auto;
+    }
+}
+
