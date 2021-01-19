@@ -400,6 +400,16 @@ body {
     height: 49%;
 }
 
+.burger-svg {
+    width: 60px;
+    height: 60px;
+    fill: #F9F8FF;
+}
+
+.burger-svg:hover {
+    fill: #7971E9;
+}
+
 @media (max-width: 1280px) {
     .header-section {
         justify-content: space-around;
@@ -599,5 +609,43 @@ body {
     .about-other-btn {
         font-size: 23px;
         padding-bottom: 5px;
+    }
+
+    .burger-menu {
+        width: 88%;
+        height: 70%;
+    }
+}
+
+@media (max-width: 450px) {
+    .title {
+        font-size: 29px;
+    }
+
+    .discover-social {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 45px;
+    }
+
+    .discover-title {
+        padding-top: 45px;
+    }
+
+    .discover-social-img {
+        margin-bottom: 30px;
+    }
+
+    .brand-section {
+        row-gap: 70px;
+    }
+
+    .love-section {
+        padding-top: 45px;
+    }
+
+    .love-img-container > div {
+        margin: 0px auto;
+        width: 90%;
     }
 }
