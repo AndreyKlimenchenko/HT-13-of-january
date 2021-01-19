@@ -410,6 +410,12 @@ body {
     fill: #7971E9;
 }
 
+.about {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    align-items: baseline;
+}
+
 @media (max-width: 1280px) {
     .header-section {
         justify-content: space-around;
