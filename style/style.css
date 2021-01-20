@@ -65,12 +65,10 @@ body {
 
 .logo-svg:hover {
     fill: #7971E9;
-    filter: drop-shadow(16px 16px 10px black);
 }
 
 .nav-btn:hover {
     color: #7971E9;
-    filter: drop-shadow(16px 16px 10px black);
 }
 
 .sign-btn {
@@ -109,12 +107,21 @@ body {
 
 .discover-social-link {
     margin-right: 19px;
-    filter: drop-shadow(16px 16px 10px black);
+    cursor: pointer;
+    transition: 1s;
 }
 
 .discover-social-link:hover {
     margin-right: 19px;
-    filter: drop-shadow(16px 16px 10px #7971E9);
+    transform: scale(1.1);
+}
+
+.discover-social-img:hover {
+    transform: scale(1.15);
+}
+
+.discover-social-img {
+    transition: 0.4s;
 }
 
 .brand-section {
@@ -173,32 +180,26 @@ body {
 
 .love-img-container > div:nth-child(1) {
     background-image: url(../img/label1.jpg);
-    filter: drop-shadow(16px 16px 10px black);
 }
 
 .love-img-container > div:nth-child(2) {
     background-image: url(../img/label2.jpg);
-    filter: drop-shadow(16px 16px 10px black);
 }
 
 .love-img-container > div:nth-child(3) {
     background-image: url(../img/label3.jpg);
-    filter: drop-shadow(16px 16px 10px black);
 }
 
 .love-img-container > div:nth-child(4) {
     background-image: url(../img/label4.jpg);
-    filter: drop-shadow(16px 16px 10px black);
 }
 
 .love-img-container > div:nth-child(5) {
     background-image: url(../img/label5.jpg);
-    filter: drop-shadow(16px 16px 10px black);
 }
 
 .love-img-container > div:nth-child(6) {
     background-image: url(../img/label6.jpg);
-    filter: drop-shadow(16px 16px 10px black);
 }
 
 .love-section {
@@ -247,17 +248,14 @@ body {
 .play-container > div:hover {
     transform: scale(1.14);
     opacity: 0.6;
-    filter: drop-shadow(16px 16px 10px black);
 }
 
 .play-container > div:nth-child(1) {
     background-image: url(../img/play1.png);
-    filter: drop-shadow(16px 16px 10px black);
 }
 
 .play-container > div:nth-child(2) {
     background-image: url(../img/play2.png);
-    filter: drop-shadow(16px 16px 10px black);
 }
 
 .hand-title, .hand-info {
@@ -330,7 +328,6 @@ body {
 
 .about-main-btn:hover {
     color: #F9F8FF;
-    filter: drop-shadow(16px 16px 10px black);
 }
 
 .about-other-btn {
@@ -363,7 +360,6 @@ body {
 
 .footer-svg {
     fill: #FFFFFF;
-    filter: drop-shadow(16px 16px 10px black);
 }
 
 .footer-svg:hover {
@@ -372,7 +368,6 @@ body {
 
 .brand-svg {
     fill: #6994A8;
-    filter: drop-shadow(16px 16px 10px black);
 }
 
 .brand-svg:hover {
@@ -415,6 +410,10 @@ body {
     grid-template-columns: repeat(2, auto);
     align-items: baseline;
 }
+
+
+/* filter: drop-shadow(16px 16px 10px black); */
+
 
 @media (max-width: 1280px) {
     .header-section {
